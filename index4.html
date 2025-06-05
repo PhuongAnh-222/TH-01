@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Đăng Ký</title>
+</head>
+<body>
+  <h2>Form Đăng Ký Thông Tin Cá Nhân</h2>
+  <form action="#" method="post">
+    <label for="ten">Họ và tên:</label><br>
+    <input type="text" id="ten" name="ten" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="sdt">Số điện thoại:</label><br>
+    <input type="tel" id="sdt" name="sdt" required pattern="[0-9]{10}"><br><br>
+
+    <label>Giới tính:</label><br>
+    <input type="radio" id="nam" name="gioitinh" value="Nam" required>
+    <label for="nam">Nam</label><br>
+    <input type="radio" id="nu" name="gioitinh" value="Nữ">
+    <label for="nu">Nữ</label><br>
+    <input type="radio" id="khac" name="gioitinh" value="Khác">
+    <label for="khac">Khác</label><br><br>
+
+    <button type="submit">Gửi</button>
+  </form>
+</body>
+</html>
+
